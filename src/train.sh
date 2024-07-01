@@ -2,7 +2,7 @@ python -m training.main \
     --save-frequency 1 \
     --zeroshot-frequency 1 \
     --report-to "wandb" \
-    --train-data="/data/csq/Caption_Datasets/NoCaps/csv_format_nocaps.csv"  \
+    --train-data="/data/csq/Caption_Datasets/Flickr_30k/output.csv"  \
     --val-data="/data/csq/Caption_Datasets/NoCaps/csv_format_nocaps.csv"  \
     --csv-img-key filepath \
     --csv-caption-key caption \
